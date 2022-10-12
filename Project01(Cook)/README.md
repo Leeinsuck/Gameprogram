@@ -1,5 +1,9 @@
 Project01(Cook Program)
 =======================
 
-### 업그레이드 전 메인 메뉴
-<img src="/C:/Users/User/OneDrive/바탕 화면/원본메뉴.png" width="450px" height="300px">
+### 개선할 점
+1. UI 개선
+2. 요리할 음식 다양화
+3. 좀 더 자세하고 다양한 요리 결과
+
+
