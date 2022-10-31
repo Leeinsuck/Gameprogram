@@ -45,5 +45,5 @@ CSS Framework
 Website Address
 -------------
 * Github - <http://example.com/>
-* netlify - <http://example.com/>
+* Netlify - <http://example.com/>
 
