@@ -4,7 +4,7 @@ CSS Framework
 * Bootstrap
 * Ulkit
 
-**Bulma - Column **
+> Bulma - Column
 ```
 <div class="columns is-mobile">
     <div class="column is-half is-offset-one-quarter">
@@ -28,14 +28,14 @@ CSS Framework
 </div>
 ```
 
-**Bootstrap - BackgroundColor**
+> Bootstrap - BackgroundColor
 ```
 <div class="p-3 mb-2 bg-primary text-black bg-opacity-50">
     ...
 </div>
 ```
 
-**Ulkit - Text**
+> Ulkit - Text
 ```
 <h2 class="uk-text-bolder uk-text-large">...</h2>
 <p class="uk-text-meta">...</p>
