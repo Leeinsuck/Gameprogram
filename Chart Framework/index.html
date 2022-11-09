@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+  <script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+        ['교촌치킨',     26.6],
+        ['BHC',      12.3],
+        ['굽네치킨',  11.5],
+        ['BBQ', 10.9],
+        ['푸라닭', 4.8],
+        ['60계치킨', 4.4],
+        ['노랑통닭', 4.2],
+        ['처갓집양념치킨', 4.1],
+        ['호식이두마리치킨', 4.0],
+        ['네네치킨', 3.3]
+      ]);
+
+      var options = {
+        title: '가장 선호하는 치킨 프랜차이즈 TOP 10',
+        pieHole: 0.4,
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+      chart.draw(data, options);
+    }
+  </script>
+</head>
+
+<body>
+<div id="donutchart" style="width: 900px; height: 500px;"></div>
+<p>
+    치킨 선호도
+</p>
+<hr>
+<canvas id="myChart1" style="width:100%;max-width:600px"></canvas>
+
+<script>
+var xValues = ["19세 이하","20~24세","25~29세","30~34세","35~39세","40~44세","45~49세","50~54세","55~59세","60~64세","65세 이상"];
+var yValues = [74,144,224,282,321,335,341,335,295,219,153];
+
+new Chart("myChart1", {
+  type: "line",
+  data: {
+    labels: xValues,
+    datasets: [{
+      fill: false,
+      lineTension: 0,
+      backgroundColor: "rgba(0,0,255,1.0)",
+      borderColor: "rgba(0,0,255,0.1)",
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "2016년도 기준 나이대별 평균 소득"
+    },
+    legend: {display: false},
+    scales: {
+      yAxes: [{ticks: {min: 50, max:500}}],
+    }
+  }
+});
+</script>
+
+
+
+<p>나이대별 평균 소득</p>
+<hr>
+
+
+<canvas id="myChart2" style="width:100%;max-width:600px"></canvas>
+<script>
+
+const ctx = document.getElementById('myChart2');
+const myChart2 = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["0-9", "10-19", "20-29", "30-39", "40-49","50-59","60-69","70-79","80-"],
+        datasets: [{
+            label: '코로나 현황',
+            data: [2828178, 3314380, 3819210,3785893, 3961214,3323678,2753298,1378529,817275],
+            backgroundColor: [
+            "#F78181",
+            "#F3F781",
+            "#BEF781",
+            "#2EFEF7",
+            "#FA58AC",
+            "#AC58FA",
+            "#8181F7",
+            "#848484",
+            "#FE2E64"
+            ]
+            
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+</script>
+<p>
+  2022년 11월 9일 기준 코로나 현황
+</p>
+
+
+</body>
+</html>
