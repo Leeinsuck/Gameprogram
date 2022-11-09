@@ -1,8 +1,8 @@
 # Chart Framework
 
-* Google chart
-* W3schools
-* chart js
+* [Google chart](https://developers.google.com/chart)
+* [W3schools](https://www.w3schools.com/)
+* [chart js](https://www.chartjs.org/docs/latest/)
 
 # Chart List
 
