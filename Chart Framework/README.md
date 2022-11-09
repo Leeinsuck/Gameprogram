@@ -1,2 +1,5 @@
 # Chart Framework
-1. Google chart
+
+* Google chart
+* W3schools
+* chart js
