@@ -69,6 +69,45 @@
 ``` 
 
 # 오래 공 튀기기
+* title(HTML 타이틀 설정)
+```
+<title>
+  오래 공 튀기기 게임
+</title>
+``` 
+
+* style(HTML 타이틀 설정)
+```
+<style>
+
+		h1{
+			position: absolute;
+			top : 5%;
+            left: 50%;
+			transform: translate(-50%,0%);
+		}
+        
+		div{
+			position: absolute;
+			bottom: 40%;
+            left: 50%;
+			transform: translate(-50%,0%);
+			text-align: center;
+			color: black;
+			font-weight: bold;
+			
+		}
+
+        canvas {
+            background: #eee;
+            position: absolute;
+			top : 5%;
+            left: 50%;
+			transform: translate(-50%,0%);
+        }
+		
+    </style>
+``` 
 
 # 출처
 [원본소스링크](https://developer.mozilla.org/ko/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Bounce_off_the_walls)
