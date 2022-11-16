@@ -8,6 +8,12 @@
 </style>
 ```
 
+* Body
+```
+<body>
+  <canvas id="myCanvas" width="480" height="320"></canvas>
+</body>
+```
 # 오래 공 튀기기
 
 # 출처
