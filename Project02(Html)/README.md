@@ -1,5 +1,11 @@
 # 공 튀기기(원본)
-
+```
+<style>
+  canvas {
+    background: #eee;
+    }; 
+</style>
+```
 
 # 오래 공 튀기기
 
