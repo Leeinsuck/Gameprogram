@@ -1,9 +1,10 @@
 # 공 튀기기(원본)
+* 스타일
 ```
 <style>
   canvas {
     background: #eee;
-    }; 
+  }; 
 </style>
 ```
 
