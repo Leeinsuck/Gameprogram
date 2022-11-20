@@ -760,5 +760,11 @@ start.onclick = () =>{
 </script>
 ```
 
-# 출처
-[원본소스링크](https://developer.mozilla.org/ko/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Bounce_off_the_walls)
+# 출처 및 참조
+* [Original Code](https://developer.mozilla.org/ko/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Bounce_off_the_walls)
+* [Position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+* [Animation Effect](https://developer.mozilla.org/en-US/docs/Web/API/setInterval)
+* [Canvas](https://developer.mozilla.org/ko/docs/Web/API/Canvas_API/Tutorial/Basic_usage)
+* [Canvas Text](https://developer.mozilla.org/ko/docs/Web/API/Canvas_API/Tutorial/Drawing_text)
+* [Flowing Time Effect](https://stickode.tistory.com/230)
+* [Event Listener](https://developer.mozilla.org/ko/docs/Web/API/EventTarget/addEventListener)
