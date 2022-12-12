@@ -19,7 +19,7 @@
     * 기름통 아이템을 먹을 시 기름양 추가
     * 캔버스에 기름양, 스피드 텍스트 추가
 
-# 자동차 게임(원본 - 공 게임)
+# 
 * Player - Script
 ```
 using System.Collections;
