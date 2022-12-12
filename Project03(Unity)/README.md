@@ -18,7 +18,8 @@
  * 게임 시작 시 시동 소리, 운전 중 소리 출력, 기름이 없으면 운전 소리 종료 기능 추가
  * 기름통 아이템을 먹을 시 기름양 추가
  * 캔버스에 기름양, 스피드 텍스트 추가
-* * *
+
+# 자동차 게임(원본 - 공 게임)
 * Player - Script
 ```
 using System.Collections;
@@ -204,8 +205,6 @@ public class Cam : MonoBehaviour
 }
 
 ```
-
-
 
 # 출처 및 참조
 * [원본](https://www.youtube.com/watch?v=pTc1dakebow)
