@@ -19,7 +19,7 @@
     * 기름통 아이템을 먹을 시 기름양 추가
     * 캔버스에 기름양, 스피드 텍스트 추가
 
-# 
+# 코드
 * Player - Script
 ```
 using System.Collections;
